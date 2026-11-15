@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SecureAI — AI-powered digital security assistant landing page." />
+  <title>SecureAI — AI-powered digital security</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-glow"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="SecureAI home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 72" role="img">
+            <path d="M32 3 57 11v24c0 16-10 27-25 34C17 62 7 51 7 35V11L32 3Z" fill="none" stroke="currentColor" stroke-width="4"/>
+            <path d="M20 25c4-4 7-6 12-6 5 0 8 2 12 6" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            <path d="M20 38c4 4 7 6 12 6 5 0 8-2 12-6" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            <text x="32" y="38" text-anchor="middle" font-size="23" font-weight="800" fill="currentColor" font-family="Inter, sans-serif">S</text>
+          </svg>
+        </span>
+        <span>Secure<span class="brand-ai">AI</span></span>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a class="active" href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a><a href="#ask-ai">Ask AI</a>
+        <a href="#about">About</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <span>☼</span><span class="toggle-dot">●</span><span>◐</span>
+        </button>
+        <a class="btn btn-outline small" href="#login">Log in</a>
+        <a class="btn btn-primary small" href="#start">Get Started</a>
+      </div>
+
+      <button class="mobile-menu" id="mobileMenu" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero section-line">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="pill"><span>✦</span> AI-Powered Cybersecurity</div>
+          <h1>Your digital safety,<br><span>powered by AI.</span></h1>
+          <p class="hero-lead">Detect threats. Avoid scams. Stay secure.</p>
+          <p class="hero-text">SecureAI helps you identify online risks, analyze suspicious messages and links, and gives you smart security insights — all in one place.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#start">Start for Free <span>→</span></a>
+            <a class="btn btn-outline" href="#how"><span>▷</span> Watch How It Works</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="orbit orbit-a"></div>
+          <div class="orbit orbit-b"></div>
+          <div class="orbit orbit-c"></div>
+          <div class="shield-glow"></div>
+          <div class="shield-card">
+            <svg viewBox="0 0 180 208" class="hero-shield">
+              <defs>
+                <linearGradient id="shieldGradient" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#d9fbff"/>
+                  <stop offset="0.45" stop-color="#61d7ff"/>
+                  <stop offset="1" stop-color="#397dff"/>
+                </linearGradient>
+              </defs>
+              <path d="M90 8 160 30v62c0 47-25 84-70 108C45 176 20 139 20 92V30L90 8Z" fill="rgba(28,119,255,.08)" stroke="url(#shieldGradient)" stroke-width="8"/>
+              <path d="M90 27 143 44v48c0 36-17 63-53 83-36-20-53-47-53-83V44L90 27Z" fill="rgba(64,190,255,.12)" stroke="#74e1ff" stroke-width="3" opacity=".9"/>
+              <text x="90" y="125" text-anchor="middle" font-size="74" font-weight="800" fill="url(#shieldGradient)" font-family="Inter, sans-serif">S</text>
+            </svg>
+          </div>
+          <div class="platform"><span></span><span></span><span></span></div>
+          <div class="feature-float float-top"><span class="icon cyan">✓</span><div><strong>Real-time threat detection</strong></div></div>
+          <div class="feature-float float-mid"><span class="icon blue">✦</span><div><strong>AI analysis &amp; guidance</strong></div></div>
+          <div class="feature-float float-bottom"><span class="icon lock">▣</span><div><strong>Your data stays private</strong></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tools section-line" id="features">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Quick Tools</h2>
+          <p>Choose what you want to check. It only takes a few seconds.</p>
+        </div>
+        <div class="tools-grid">
+          <button class="tool-card" data-tool="Check a Link">
+            <span class="tool-icon cyan">↗</span>
+            <span class="tool-title">Check a Link <b>→</b></span>
+            <span class="tool-desc">Find out if a link is safe before you click.</span>
+          </button>
+          <button class="tool-card" data-tool="Check a Message">
+            <span class="tool-icon violet">✉</span>
+            <span class="tool-title">Check a Message <b>→</b></span>
+            <span class="tool-desc">Detect scams and suspicious content.</span>
+          </button>
+          <button class="tool-card" data-tool="Scan a File">
+            <span class="tool-icon teal">▤</span>
+            <span class="tool-title">Scan a File <b>→</b></span>
+            <span class="tool-desc">Check files for potential threats.</span>
+          </button>
+          <button class="tool-card" data-tool="Security Check">
+            <span class="tool-icon orange">⬢</span>
+            <span class="tool-title">Security Check <b>→</b></span>
+            <span class="tool-desc">Get your device security score and tips.</span>
+          </button>
+          <button class="tool-card" data-tool="Ask Security AI">
+            <span class="tool-icon violet">▣</span>
+            <span class="tool-title">Ask Security AI <b>→</b></span>
+            <span class="tool-desc">Get instant answers to your security questions.</span>
+          </button>
+        </div>
+
+        <div class="dashboard-card">
+          <div class="score-panel">
+            <div class="score-ring" aria-label="Security score 82 out of 100">
+              <svg viewBox="0 0 180 180">
+                <circle class="ring-bg" cx="90" cy="90" r="68"></circle>
+                <circle class="ring-progress" cx="90" cy="90" r="68"></circle>
+              </svg>
+              <div class="score-value"><strong>82</strong><span>/100</span></div>
+            </div>
+            <div class="score-copy">
+              <h3>Your Security Score</h3>
+              <p>Good! Your device is mostly secure.<br>Here are a few things to improve:</p>
+              <div class="checks">
+                <div><span class="warn">!</span> Enable two-factor authentication</div>
+                <div><span class="ok">✓</span> Keep your software updated</div>
+                <div><span class="warn">!</span> Check your browser extensions</div>
+              </div>
+              <button class="btn btn-outline report-btn" id="reportBtn">View Full Report <span>→</span></button>
+            </div>
+          </div>
+
+          <div class="activity-panel">
+            <div class="activity-head"><h3>Recent Activity</h3><button id="viewAll">View All</button></div>
+            <div class="activity-row"><span class="activity-icon cyan">↗</span><div class="activity-main"><strong>https://example.com</strong><small>Link scan · <em>Safe</em></small></div><span class="status safe">Safe</span><small>2h ago</small></div>
+            <div class="activity-row"><span class="activity-icon orange">✉</span><div class="activity-main"><strong>Suspicious email.eml</strong><small>Message scan · <em class="risk-text">Risk detected</em></small></div><span class="status risk">Risk</span><small>5h ago</small></div>
+            <div class="activity-row"><span class="activity-icon teal">▤</span><div class="activity-main"><strong>document.pdf</strong><small>File scan · <em>Clean</em></small></div><span class="status safe">Clean</span><small>7h ago</small></div>
+            <div class="activity-row"><span class="activity-icon orange">⬢</span><div class="activity-main"><strong>Security check</strong><small>Device scan · <em class="attention-text">2 issues found</em></small></div><span class="status attention">Needs attention</span><small>1d ago</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="how section-line" id="how">
+      <div class="container">
+        <div class="section-heading">
+          <h2>How SecureAI Works</h2>
+          <p>Advanced AI. Simple steps. Better protection.</p>
+        </div>
+        <div class="steps">
+          <div class="step"><span class="step-number">1</span><div><h3>Scan</h3><p>Paste a link, message, file, or run a security check.</p></div><span class="step-arrow">→</span></div>
+          <div class="step"><span class="step-number">2</span><div><h3>Analyze</h3><p>Our AI checks for threats, scams, and vulnerabilities.</p></div><span class="step-arrow">→</span></div>
+          <div class="step"><span class="step-number">3</span><div><h3>Get Guidance</h3><p>Receive clear results and personalized tips.</p></div><span class="step-arrow">→</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ai-section section-line" id="ask-ai">
+      <div class="container ai-grid">
+        <div class="ai-intro">
+          <div class="pill"><span>✦</span> Ask Security AI</div>
+          <h2>Have a security question?<br><span>Ask SecureAI.</span></h2>
+          <p>Ask about suspicious messages, account safety, privacy, phishing, passwords, or what to do after a security warning.</p>
+          <div class="ai-suggestions">
+            <button class="suggestion" data-question="How can I tell if a message is a phishing scam?">How can I spot phishing?</button>
+            <button class="suggestion" data-question="What should I do if I clicked a suspicious link?">I clicked a suspicious link</button>
+            <button class="suggestion" data-question="How can I make my accounts more secure?">How do I secure my accounts?</button>
+          </div>
+        </div>
+        <div class="ai-chat-card">
+          <div class="ai-chat-head"><span class="ai-status-dot"></span><div><strong>SecureAI Assistant</strong><small>Defensive security guidance</small></div></div>
+          <div id="chatMessages" class="chat-messages">
+            <div class="chat-bubble bot">Hi! Ask me a digital-security question and I’ll explain the safest next step.</div>
+          </div>
+          <form id="chatForm" class="chat-form">
+            <textarea id="chatInput" rows="2" placeholder="Type your security question..." required></textarea>
+            <button class="btn btn-primary" type="submit">Ask AI <span>→</span></button>
+          </form>
+          <small class="ai-disclaimer">SecureAI provides defensive guidance and does not control your device or guarantee that a device is malware-free.</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing section-line" id="pricing">
+      <div class="container pricing-grid">
+        <div><div class="pill"><span>✦</span> Simple plans</div><h2>Start free.<br><span>Upgrade when you need more.</span></h2></div>
+        <div class="price-card"><div class="price-top"><div><span class="plan">Free</span><h3>0 EGP <small>/ month</small></h3></div><span class="plan-badge">Starter</span></div><p>Basic scans and limited AI security checks.</p><a class="btn btn-outline full" href="#start">Start Free</a></div>
+        <div class="price-card featured"><div class="price-top"><div><span class="plan">Premium</span><h3>20 EGP <small>/ month</small></h3></div><span class="plan-badge">Popular</span></div><p>More scans, detailed reports, history, alerts and AI assistance.</p><div class="price-note">About $0.39/month</div><a class="btn btn-primary full" href="#start">Choose Premium</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="about">
+    <div class="container footer-grid">
+      <div class="footer-brand"><a class="brand" href="#home"><span class="brand-mark small-mark"><svg viewBox="0 0 64 72"><path d="M32 3 57 11v24c0 16-10 27-25 34C17 62 7 51 7 35V11L32 3Z" fill="none" stroke="currentColor" stroke-width="4"/><text x="32" y="43" text-anchor="middle" font-size="27" font-weight="800" fill="currentColor">S</text></svg></span><span>Secure<span class="brand-ai">AI</span></span></a><p>Smarter security for a safer digital you.</p></div>
+      <div class="footer-links"><a href="#features">Features</a><a href="#pricing">Pricing</a><a href="#about">About</a><a href="#help">Help</a></div>
+      <div class="footer-right"><div class="socials"><a href="#">in</a><a href="#">X</a><a href="#">▶</a></div><span>© 2026 SecureAI. All rights reserved.</span></div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="modal" id="toolModal" aria-hidden="true">
+    <div class="modal-card">
+      <div class="modal-head"><h3 id="modalTitle">SecureAI Tool</h3><button id="closeModal" class="modal-close" aria-label="Close">×</button></div>
+      <div id="modalBody" class="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

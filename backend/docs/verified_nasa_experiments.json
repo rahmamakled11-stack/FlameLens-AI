@@ -1,0 +1,662 @@
+{
+  "manifest_version": 1,
+  "verification_policy": "Include only project identities, descriptions, publications, findings, and media supported by inspected official NASA sources. NTRS document identifiers are not NASA investigation identifiers.",
+  "experiments": [
+    {
+      "verification_status": "VERIFIED_PROJECT_IDENTITY",
+      "review_notes": null,
+      "catalog_key": "nasa:combustion:acme",
+      "title": "Advanced Combustion via Microgravity Experiments (ACME)",
+      "acronym": "ACME",
+      "nasa_identifier": null,
+      "program": "Combustion Science",
+      "mission": "International Space Station (ISS)",
+      "summary": "NASA describes ACME as fundamental microgravity combustion research intended to improve efficiency and reduce pollutant emissions in practical terrestrial combustion.",
+      "description": "NTRS describes six independent ACME investigations of laminar, non-premixed gaseous-fuel flames conducted on the ISS in the Combustion Integrated Rack from November 2017 to February 2022.",
+      "nasa_url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/",
+      "sections": [
+        {
+          "section_type": "overview",
+          "title": "Overview",
+          "content": "ACME conducts fundamental microgravity combustion research to improve efficiency and reduce pollutant emissions in practical terrestrial combustion.",
+          "source_url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/"
+        },
+        {
+          "section_type": "objectives",
+          "title": "Investigations and research setting",
+          "content": "NASA's 2022 ACME poster describes six independent investigations of laminar, non-premixed gaseous-fuel flames conducted on the ISS in the Combustion Integrated Rack from November 2017 to February 2022.",
+          "source_url": "https://ntrs.nasa.gov/citations/20220015583"
+        }
+      ],
+      "publications": [
+        {
+          "title": "Advanced Combustion via Microgravity Experiments (ACME) on the International Space Station (ISS)",
+          "authors": [
+            "Dennis Stocker"
+          ],
+          "publication_type": "poster",
+          "journal": null,
+          "doi": null,
+          "publication_url": "https://ntrs.nasa.gov/citations/20210015913",
+          "publication_date": null,
+          "abstract": null,
+          "source_url": "https://ntrs.nasa.gov/citations/20210015913"
+        },
+        {
+          "title": "ACME: Advanced Combustion via Microgravity Experiments",
+          "authors": [
+            "Dennis P Stocker"
+          ],
+          "publication_type": "poster",
+          "journal": null,
+          "doi": null,
+          "publication_url": "https://ntrs.nasa.gov/citations/20220015583",
+          "publication_date": null,
+          "abstract": null,
+          "source_url": "https://ntrs.nasa.gov/citations/20220015583"
+        }
+      ],
+      "media": [
+        {
+          "title": "Advanced Combustion via Microgravity Experiments, ACME chamber insert",
+          "description": "NASA image metadata identifies the ACME chamber insert for the Combustion Integrated Rack.",
+          "media_type": "image",
+          "media_url": "https://images-assets.nasa.gov/image/GRC-2016-C-05051/GRC-2016-C-05051~orig.jpg",
+          "thumbnail_url": "https://images-assets.nasa.gov/image/GRC-2016-C-05051/GRC-2016-C-05051~thumb.jpg",
+          "source_url": "https://images-assets.nasa.gov/image/GRC-2016-C-05051/metadata.json"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NASA Combustion Science archive",
+          "source_type": "NASA project archive",
+          "source_url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/",
+          "publisher": "NASA",
+          "publication_date": null,
+          "accessed_at": null
+        },
+        {
+          "title": "Advanced Combustion via Microgravity Experiments (ACME) on the International Space Station (ISS)",
+          "source_type": "NASA NTRS citation",
+          "source_url": "https://ntrs.nasa.gov/citations/20210015913",
+          "publisher": "NASA",
+          "publication_date": null,
+          "accessed_at": null
+        },
+        {
+          "title": "ACME: Advanced Combustion via Microgravity Experiments",
+          "source_type": "NASA NTRS citation",
+          "source_url": "https://ntrs.nasa.gov/citations/20220015583",
+          "publisher": "NASA",
+          "publication_date": null,
+          "accessed_at": null
+        },
+        {
+          "title": "ACME chamber insert image metadata",
+          "source_type": "NASA Image and Video Library metadata",
+          "source_url": "https://images-assets.nasa.gov/image/GRC-2016-C-05051/metadata.json",
+          "publisher": "NASA",
+          "publication_date": null,
+          "accessed_at": null
+        }
+      ]
+    },
+    {
+      "verification_status": "VERIFIED_PROJECT_IDENTITY",
+      "review_notes": "The inspected results are specifically for BASS-II, a named phase of BASS; retain the phase distinction when importing.",
+      "catalog_key": "nasa:combustion:bass",
+      "title": "Burning and Suppression of Solids (BASS)",
+      "acronym": "BASS",
+      "nasa_identifier": null,
+      "program": "Combustion Science",
+      "mission": "International Space Station (ISS)",
+      "summary": "NASA describes BASS as an investigation of the burning and extinction characteristics of varied solid-fuel samples in microgravity.",
+      "description": "The inspected NASA results include BASS-II documentation. The BASS-II summary report describes tests that varied oxygen concentration, ventilation flow, and fuel type, thickness, and geometry.",
+      "nasa_url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/",
+      "sections": [
+        {
+          "section_type": "overview",
+          "title": "Overview",
+          "content": "BASS examines the burning and extinction characteristics of a wide variety of fuel samples in microgravity.",
+          "source_url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/"
+        },
+        {
+          "section_type": "findings",
+          "title": "BASS-II results scope",
+          "content": "The BASS-II summary report describes the test variables and reports combustion-gas readings and calculated heat-release results. This catalog does not reproduce or reinterpret its numerical measurements.",
+          "source_url": "https://ntrs.nasa.gov/citations/20210011385"
+        }
+      ],
+      "publications": [
+        {
+          "title": "Combustion of Solids in Microgravity: Results from the BASS-II Experiment",
+          "authors": null,
+          "publication_type": "presentation",
+          "journal": null,
+          "doi": null,
+          "publication_url": "https://ntrs.nasa.gov/citations/20160000593",
+          "publication_date": null,
+          "abstract": null,
+          "source_url": "https://ntrs.nasa.gov/citations/20160000593"
+        },
+        {
+          "title": "Burning and Suppression of Solids–II (BASS-II) Summary Report",
+          "authors": null,
+          "publication_type": "technical memorandum",
+          "journal": null,
+          "doi": null,
+          "publication_url": "https://ntrs.nasa.gov/citations/20210011385",
+          "publication_date": "2021-10-01",
+          "abstract": null,
+          "source_url": "https://ntrs.nasa.gov/citations/20210011385"
+        }
+      ],
+      "media": [
+        {
+          "title": "BASS-II Experiment",
+          "description": "NASA image metadata describes this as an image from a BASS-II flame-test session.",
+          "media_type": "image",
+          "media_url": "https://images-assets.nasa.gov/image/iss040e086481/iss040e086481~orig.jpg",
+          "thumbnail_url": "https://images-assets.nasa.gov/image/iss040e086481/iss040e086481~thumb.jpg",
+          "source_url": "https://images-assets.nasa.gov/image/iss040e086481/metadata.json"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NASA Combustion Science archive",
+          "source_type": "NASA project archive",
+          "source_url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/",
+          "publisher": "NASA",
+          "publication_date": null,
+          "accessed_at": null
+        },
+        {
+          "title": "Combustion of Solids in Microgravity: Results from the BASS-II Experiment",
+          "source_type": "NASA NTRS citation",
+          "source_url": "https://ntrs.nasa.gov/citations/20160000593",
+          "publisher": "NASA",
+          "publication_date": null,
+          "accessed_at": null
+        },
+        {
+          "title": "Burning and Suppression of Solids–II (BASS-II) Summary Report",
+          "source_type": "NASA NTRS citation",
+          "source_url": "https://ntrs.nasa.gov/citations/20210011385",
+          "publisher": "NASA",
+          "publication_date": "2021-10-01",
+          "accessed_at": null
+        },
+        {
+          "title": "BASS-II Experiment image metadata",
+          "source_type": "NASA Image and Video Library metadata",
+          "source_url": "https://images-assets.nasa.gov/image/iss040e086481/metadata.json",
+          "publisher": "NASA",
+          "publication_date": null,
+          "accessed_at": null
+        }
+      ]
+    },
+    {
+      "verification_status": "VERIFIED_PROJECT_IDENTITY",
+      "review_notes": "DAFT is described as a precursor/risk-mitigation activity supporting SAME, not as the SAME investigation itself.",
+      "catalog_key": "nasa:combustion:daft",
+      "title": "Dust and Aerosol Measurement Feasibility Test (DAFT)",
+      "acronym": "DAFT",
+      "nasa_identifier": null,
+      "program": "Combustion Science",
+      "mission": "International Space Station (ISS)",
+      "summary": "NASA describes DAFT as a feasibility test of a modified P-Trak instrument intended to support the Smoke Aerosol Measurement Experiment (SAME) in microgravity.",
+      "description": "A NASA NTRS article describes DAFT as risk mitigation developed at NASA Glenn with ZIN Technologies to evaluate a condensation nuclei counter during long-duration microgravity operation. A later NASA presentation reports the precursor flight's cabin particle measurement context.",
+      "nasa_url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/",
+      "sections": [
+        {
+          "section_type": "objectives",
+          "title": "Instrument feasibility",
+          "content": "DAFT evaluated whether a modified P-Trak condensation nuclei counter could operate properly in long-duration microgravity as a key SAME diagnostic.",
+          "source_url": "https://ntrs.nasa.gov/citations/20050215648"
+        },
+        {
+          "section_type": "findings",
+          "title": "Precursor measurement context",
+          "content": "A NASA presentation reports that DAFT flew as a precursor and provided an ISS cabin background-particle measurement. Its abstract characterizes the measured background as below the cited spacecraft maximum allowable concentration; this is reported here only as the presentation's statement.",
+          "source_url": "https://ntrs.nasa.gov/citations/20070031686"
+        }
+      ],
+      "publications": [
+        {
+          "title": "Fundamental Research Applied To Enable Hardware Performance in Microgravity",
+          "authors": [
+            "William A. Sheredy"
+          ],
+          "publication_type": "NASA research and technology article",
+          "journal": null,
+          "doi": null,
+          "publication_url": "https://ntrs.nasa.gov/citations/20050215648",
+          "publication_date": "2005-06-01",
+          "abstract": null,
+          "source_url": "https://ntrs.nasa.gov/citations/20050215648"
+        },
+        {
+          "title": "Particle and Smoke Detection on ISS for Next Generation Smoke Detectors",
+          "authors": null,
+          "publication_type": "presentation",
+          "journal": null,
+          "doi": null,
+          "publication_url": "https://ntrs.nasa.gov/citations/20070031686",
+          "publication_date": null,
+          "abstract": null,
+          "source_url": "https://ntrs.nasa.gov/citations/20070031686"
+        }
+      ],
+      "media": [],
+      "sources": [
+        {
+          "title": "NASA Combustion Science archive",
+          "source_type": "NASA project archive",
+          "source_url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/",
+          "publisher": "NASA",
+          "publication_date": null,
+          "accessed_at": null
+        },
+        {
+          "title": "Fundamental Research Applied To Enable Hardware Performance in Microgravity",
+          "source_type": "NASA NTRS citation",
+          "source_url": "https://ntrs.nasa.gov/citations/20050215648",
+          "publisher": "NASA",
+          "publication_date": "2005-06-01",
+          "accessed_at": null
+        },
+        {
+          "title": "Particle and Smoke Detection on ISS for Next Generation Smoke Detectors",
+          "source_type": "NASA NTRS citation",
+          "source_url": "https://ntrs.nasa.gov/citations/20070031686",
+          "publisher": "NASA",
+          "publication_date": null,
+          "accessed_at": null
+        }
+      ]
+    },
+    {
+      "verification_status": "VERIFIED_PROJECT_IDENTITY",
+      "review_notes": null,
+      "catalog_key": "nasa:combustion:flex",
+      "title": "Flame Extinguishment Experiment (FLEX)",
+      "acronym": "FLEX",
+      "nasa_identifier": null,
+      "program": "Combustion Science",
+      "mission": "International Space Station (ISS)",
+      "summary": "NASA says FLEX was designed to assess inert-gas suppressant effectiveness in microgravity and estimate the limiting oxygen index for steady combustion.",
+      "description": "NASA's NTRS record provides a technical publication titled Detailed Results from the Flame Extinguishment Experiment (FLEX), covering the March 2009 to December 2011 test period. The source describes results and does not provide an experiment-specific NASA identifier.",
+      "nasa_url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/",
+      "sections": [
+        {
+          "section_type": "objectives",
+          "title": "Objectives",
+          "content": "Assess and quantify inert-gas suppressant effectiveness in microgravity and obtain a conservative estimate of the limiting oxygen index for steady combustion.",
+          "source_url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/"
+        },
+        {
+          "section_type": "findings",
+          "title": "Results publication",
+          "content": "NASA NTRS provides a detailed FLEX results publication covering tests from March 2009 through December 2011. No measurement values are copied into this catalog.",
+          "source_url": "https://ntrs.nasa.gov/citations/20150023456"
+        }
+      ],
+      "publications": [
+        {
+          "title": "Detailed Results from the Flame Extinguishment Experiment (FLEX) March 2009 to December 2011",
+          "authors": null,
+          "publication_type": "technical publication",
+          "journal": null,
+          "doi": null,
+          "publication_url": "https://ntrs.nasa.gov/citations/20150023456",
+          "publication_date": "2015-11-01",
+          "abstract": null,
+          "source_url": "https://ntrs.nasa.gov/citations/20150023456"
+        }
+      ],
+      "media": [],
+      "sources": [
+        {
+          "title": "NASA Combustion Science archive",
+          "source_type": "NASA project archive",
+          "source_url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/",
+          "publisher": "NASA",
+          "publication_date": null,
+          "accessed_at": null
+        },
+        {
+          "title": "Detailed Results from the Flame Extinguishment Experiment (FLEX) March 2009 to December 2011",
+          "source_type": "NASA NTRS citation",
+          "source_url": "https://ntrs.nasa.gov/citations/20150023456",
+          "publisher": "NASA",
+          "publication_date": "2015-11-01",
+          "accessed_at": null
+        }
+      ]
+    },
+    {
+      "verification_status": "VERIFIED_PROJECT_IDENTITY",
+      "review_notes": "The catalog-level record covers the Saffire series; publications and media refer to named installments and must remain identifiable as such.",
+      "catalog_key": "nasa:combustion:saffire",
+      "title": "Spacecraft Fire Safety Demonstration (Saffire)",
+      "acronym": "Saffire",
+      "nasa_identifier": null,
+      "program": "Combustion Science",
+      "mission": "Cygnus cargo spacecraft after departure from the ISS",
+      "summary": "NASA's Saffire series investigated spacecraft fire safety. NASA NTRS describes the series as spacecraft fire experiments conducted using a cargo vehicle after it departed the ISS.",
+      "description": "The NASA archive entry names the project Spacecraft Fire Safety Demonstration. NASA NTRS documents the development and operation of Saffire installments, and NASA media metadata documents a Saffire-V materials test.",
+      "nasa_url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/",
+      "sections": [
+        {
+          "section_type": "overview",
+          "title": "Series scope",
+          "content": "NASA documents a series of spacecraft fire experiments; the cited publications and media identify individual Saffire installments rather than a single undifferentiated test.",
+          "source_url": "https://ntrs.nasa.gov/citations/20170000230"
+        },
+        {
+          "section_type": "findings",
+          "title": "Saffire-V material test",
+          "content": "NASA's Saffire-V video metadata reports that fires in microgravity grew and burned faster on thinner ribs than on thicker sample regions in the described test. This observation is specific to the media-described test, not a universal quantitative result.",
+          "source_url": "https://images-assets.nasa.gov/video/GRC-2021-CN-00008/metadata.json"
+        }
+      ],
+      "publications": [
+        {
+          "title": "Operation and Development Status of the Spacecraft Fire Experiments (Saffire)",
+          "authors": null,
+          "publication_type": "conference paper",
+          "journal": null,
+          "doi": null,
+          "publication_url": "https://ntrs.nasa.gov/citations/20170000230",
+          "publication_date": "2016-07-10",
+          "abstract": null,
+          "source_url": "https://ntrs.nasa.gov/citations/20170000230"
+        },
+        {
+          "title": "Preliminary Results from the Saffire VI Experiment",
+          "authors": null,
+          "publication_type": "conference paper",
+          "journal": null,
+          "doi": null,
+          "publication_url": "https://ntrs.nasa.gov/citations/20240002981",
+          "publication_date": null,
+          "abstract": null,
+          "source_url": "https://ntrs.nasa.gov/citations/20240002981"
+        }
+      ],
+      "media": [
+        {
+          "title": "Saffire-V Experiment January 2021",
+          "description": "NASA video metadata describes a Saffire-V polymethyl methacrylate sample test with manufactured ribs and reports the observed difference between thinner and thicker regions.",
+          "media_type": "video",
+          "media_url": "https://images-assets.nasa.gov/video/GRC-2021-CN-00008/GRC-2021-CN-00008~orig.mp4",
+          "thumbnail_url": "https://images-assets.nasa.gov/video/GRC-2021-CN-00008/GRC-2021-CN-00008~thumb.jpg",
+          "source_url": "https://images-assets.nasa.gov/video/GRC-2021-CN-00008/metadata.json"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NASA Combustion Science archive",
+          "source_type": "NASA project archive",
+          "source_url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/",
+          "publisher": "NASA",
+          "publication_date": null,
+          "accessed_at": null
+        },
+        {
+          "title": "Operation and Development Status of the Spacecraft Fire Experiments (Saffire)",
+          "source_type": "NASA NTRS citation",
+          "source_url": "https://ntrs.nasa.gov/citations/20170000230",
+          "publisher": "NASA",
+          "publication_date": "2016-07-10",
+          "accessed_at": null
+        },
+        {
+          "title": "Preliminary Results from the Saffire VI Experiment",
+          "source_type": "NASA NTRS citation",
+          "source_url": "https://ntrs.nasa.gov/citations/20240002981",
+          "publisher": "NASA",
+          "publication_date": null,
+          "accessed_at": null
+        },
+        {
+          "title": "Saffire-V Experiment January 2021 video metadata",
+          "source_type": "NASA Image and Video Library metadata",
+          "source_url": "https://images-assets.nasa.gov/video/GRC-2021-CN-00008/metadata.json",
+          "publisher": "NASA",
+          "publication_date": null,
+          "accessed_at": null
+        }
+      ]
+    },
+    {
+      "verification_status": "VERIFIED_PROJECT_IDENTITY",
+      "review_notes": "SAME and SAME-2 are related but distinct run/record scopes. The NASA news article and NTRS record give differing year descriptions for the repeat; verify timeline and grouping before importing.",
+      "catalog_key": "nasa:combustion:same",
+      "title": "Smoke Aerosol Measurement Experiment (SAME)",
+      "acronym": "SAME",
+      "nasa_identifier": null,
+      "program": "Combustion Science",
+      "mission": "International Space Station (ISS)",
+      "summary": "NASA describes SAME as an investigation of smoke-particle characteristics relevant to distinguishing smoke from nuisance aerosols and improving spacecraft smoke detection.",
+      "description": "NASA documentation describes experiments with smoke from spacecraft materials and particle-size measurements. A NASA NTRS publication specifically reports particle morphology and size results from SAME-2, which should not be silently treated as results from the initial run.",
+      "nasa_url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/",
+      "sections": [
+        {
+          "section_type": "objectives",
+          "title": "Smoke characterization",
+          "content": "NASA describes the need to distinguish different smoke and aerosol types, including soot and recondensed polymer droplets, for spacecraft smoke detection.",
+          "source_url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/"
+        },
+        {
+          "section_type": "findings",
+          "title": "SAME-2 particle results",
+          "content": "NASA NTRS provides particle morphology and size results specifically from SAME-2. Keep those results scoped to the SAME-2 reflight; do not merge them into the initial SAME run without a verified relationship rule.",
+          "source_url": "https://ntrs.nasa.gov/citations/20130000422"
+        }
+      ],
+      "publications": [
+        {
+          "title": "Particle and Smoke Detection on ISS for Next Generation Smoke Detectors",
+          "authors": null,
+          "publication_type": "presentation",
+          "journal": null,
+          "doi": null,
+          "publication_url": "https://ntrs.nasa.gov/citations/20070031686",
+          "publication_date": null,
+          "abstract": null,
+          "source_url": "https://ntrs.nasa.gov/citations/20070031686"
+        },
+        {
+          "title": "Particle Morphology and Size Results from the Smoke Aerosol Measurement Experiment-2",
+          "authors": null,
+          "publication_type": "conference paper",
+          "journal": null,
+          "doi": null,
+          "publication_url": "https://ntrs.nasa.gov/citations/20130000422",
+          "publication_date": "2012-07-15",
+          "abstract": null,
+          "source_url": "https://ntrs.nasa.gov/citations/20130000422"
+        }
+      ],
+      "media": [
+        {
+          "title": "MSG SAME Experiment",
+          "description": "NASA image metadata identifies astronaut Shannon Walker working with SAME in the Microgravity Sciences Glovebox aboard the ISS.",
+          "media_type": "image",
+          "media_url": "https://images-assets.nasa.gov/image/iss024e008351/iss024e008351~orig.jpg",
+          "thumbnail_url": "https://images-assets.nasa.gov/image/iss024e008351/iss024e008351~thumb.jpg",
+          "source_url": "https://images-assets.nasa.gov/image/iss024e008351/metadata.json"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NASA Combustion Science archive",
+          "source_type": "NASA project archive",
+          "source_url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/",
+          "publisher": "NASA",
+          "publication_date": null,
+          "accessed_at": null
+        },
+        {
+          "title": "Particle and Smoke Detection on ISS for Next Generation Smoke Detectors",
+          "source_type": "NASA NTRS citation",
+          "source_url": "https://ntrs.nasa.gov/citations/20070031686",
+          "publisher": "NASA",
+          "publication_date": null,
+          "accessed_at": null
+        },
+        {
+          "title": "Particle Morphology and Size Results from the Smoke Aerosol Measurement Experiment-2",
+          "source_type": "NASA NTRS citation",
+          "source_url": "https://ntrs.nasa.gov/citations/20130000422",
+          "publisher": "NASA",
+          "publication_date": "2012-07-15",
+          "accessed_at": null
+        },
+        {
+          "title": "MSG SAME Experiment image metadata",
+          "source_type": "NASA Image and Video Library metadata",
+          "source_url": "https://images-assets.nasa.gov/image/iss024e008351/metadata.json",
+          "publisher": "NASA",
+          "publication_date": null,
+          "accessed_at": null
+        }
+      ]
+    },
+    {
+      "verification_status": "VERIFIED_PROJECT_IDENTITY",
+      "review_notes": null,
+      "catalog_key": "nasa:combustion:slice",
+      "title": "Structure & Liftoff in Combustion Experiment (SLICE)",
+      "acronym": "SLICE",
+      "nasa_identifier": null,
+      "program": "Combustion Science",
+      "mission": "International Space Station (ISS)",
+      "summary": "NASA describes SLICE as a study of coflow laminar diffusion flames, a configuration useful for experiments and numerical modeling.",
+      "description": "NASA sources describe SLICE's ISS combustion research and NTRS provides experimental and computational publications on soot formation in coflow jet flames under microgravity and normal gravity.",
+      "nasa_url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/",
+      "sections": [
+        {
+          "section_type": "overview",
+          "title": "Research configuration",
+          "content": "Coflow laminar diffusion flames are used for combustion studies because the configuration supports accurate numerical modeling.",
+          "source_url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/"
+        },
+        {
+          "section_type": "findings",
+          "title": "Soot-formation research",
+          "content": "NASA NTRS documents an experimental and computational study of soot formation in a coflow jet flame under microgravity and normal gravity. No numerical measurements are copied into this catalog.",
+          "source_url": "https://ntrs.nasa.gov/citations/20140017780"
+        }
+      ],
+      "publications": [
+        {
+          "title": "An Experimental and Computational Study on Soot Formation in a Coflow Jet Flame Under Microgravity and Normal Gravity",
+          "authors": null,
+          "publication_type": "conference paper",
+          "journal": null,
+          "doi": null,
+          "publication_url": "https://ntrs.nasa.gov/citations/20140017780",
+          "publication_date": "2014-08-03",
+          "abstract": null,
+          "source_url": "https://ntrs.nasa.gov/citations/20140017780"
+        }
+      ],
+      "media": [
+        {
+          "title": "SLICE investigation image (NASA article)",
+          "description": "Image embedded in the inspected NASA SLICE article.",
+          "media_type": "image",
+          "media_url": "https://www.nasa.gov/wp-content/uploads/2013/06/536664main_slice_226.jpg",
+          "thumbnail_url": null,
+          "source_url": "https://www.nasa.gov/wp-json/wp/v2/migration/309165"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NASA Combustion Science archive",
+          "source_type": "NASA project archive",
+          "source_url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/",
+          "publisher": "NASA",
+          "publication_date": null,
+          "accessed_at": null
+        },
+        {
+          "title": "An Experimental and Computational Study on Soot Formation in a Coflow Jet Flame Under Microgravity and Normal Gravity",
+          "source_type": "NASA NTRS citation",
+          "source_url": "https://ntrs.nasa.gov/citations/20140017780",
+          "publisher": "NASA",
+          "publication_date": "2014-08-03",
+          "accessed_at": null
+        },
+        {
+          "title": "NASA SLICE article",
+          "source_type": "NASA project article",
+          "source_url": "https://www.nasa.gov/wp-json/wp/v2/migration/309165",
+          "publisher": "NASA",
+          "publication_date": null,
+          "accessed_at": null
+        }
+      ]
+    },
+    {
+      "verification_status": "VERIFIED_PROJECT_IDENTITY",
+      "review_notes": "NASA's project page and NTRS record verify the investigation name and planned objectives. Completion, flight status, and results were not established by the inspected sources.",
+      "catalog_key": "nasa:combustion:spice",
+      "title": "Smoke Point in Co-flow Experiment (SPICE)",
+      "acronym": "SPICE",
+      "nasa_identifier": null,
+      "program": "Combustion Science",
+      "mission": null,
+      "summary": "NASA describes SPICE as a continuation of fundamental work on the stability and extinction of jet diffusion flames, with a focus on smoke-point behavior.",
+      "description": "The inspected NTRS record describes planned coflowing-oxidizer flame measurements to study smoke-point properties and validate flame models. It is written prospectively and does not establish that the experiment was completed or report completed findings.",
+      "nasa_url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/",
+      "sections": [
+        {
+          "section_type": "objectives",
+          "title": "Planned objectives",
+          "content": "The NTRS record describes planned measurements of non-buoyant jet diffusion flame smoke-point properties across fuels and nozzle/coflow configurations, as well as flame-shape, stabilization-height, and temperature measurements.",
+          "source_url": "https://ntrs.nasa.gov/citations/20090014827"
+        }
+      ],
+      "publications": [
+        {
+          "title": "Smoke Point in Co-flow Experiment",
+          "authors": [
+            "David L. Urban",
+            "Peter B. Sunderland",
+            "Zeng-Guang Yuan"
+          ],
+          "publication_type": "NASA NTRS record",
+          "journal": null,
+          "doi": null,
+          "publication_url": "https://ntrs.nasa.gov/citations/20090014827",
+          "publication_date": null,
+          "abstract": null,
+          "source_url": "https://ntrs.nasa.gov/citations/20090014827"
+        }
+      ],
+      "media": [],
+      "sources": [
+        {
+          "title": "NASA Combustion Science archive",
+          "source_type": "NASA project archive",
+          "source_url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/",
+          "publisher": "NASA",
+          "publication_date": null,
+          "accessed_at": null
+        },
+        {
+          "title": "Smoke Point in Co-flow Experiment",
+          "source_type": "NASA NTRS citation",
+          "source_url": "https://ntrs.nasa.gov/citations/20090014827",
+          "publisher": "NASA",
+          "publication_date": null,
+          "accessed_at": null
+        }
+      ]
+    }
+  ]
+}
